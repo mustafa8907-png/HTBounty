@@ -1,0 +1,23 @@
+settings:
+  gui-rows: 3
+  min-bounty: 100
+  tax-rate: 0.1
+  # Ödül süresi (Saniye). 259200 saniye = 3 Gün.
+  expiry-time: 259200
+
+effects:
+  bounty-set-sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  bounty-claim-sound: "UI_TOAST_CHALLENGE_COMPLETE"
+
+gui:
+  title: "&8Bounty Listesi - Sayfa %page%"
+  next-page: "&aSonraki Sayfa"
+  previous-page: "&cÖnceki Sayfa"
+  item-name: "&c%player%"
+  item-lore:
+    - "&7Ödül: &6%amount%$"
+    - "&7Koyan: &e%setter%"
+    - "&7Bitiş: &f%expiry%"
+    - ""
+    - "&eÖldür ve parayı kazan!
+"
